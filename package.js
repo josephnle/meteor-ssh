@@ -20,3 +20,5 @@ Package.onTest(function(api) {
   api.use('joseph:ssh');
   api.addFiles('joseph:ssh-tests.js');
 });
+
+Npm.depends({"ssh2": "0.4.2"});
